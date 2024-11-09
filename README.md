@@ -117,5 +117,5 @@ Cleanup:
 - Delete the setup folder located at C:\inetpub\wwwroot\osTicket\setup. <br>
 - Set the file permissions for ost-config.php at C:\inetpub\wwwroot\osTicket\include\ost-config.php to Read only. <br>
 
-Finally, log in to the osTicket Admin Panel <a> http://localhost/osTicket/scp/login.php. </a>
+Finally, log in to the osTicket <a href="http://localhost/osTicket/scp/login.php">Admin Panel</a>
 </P>
