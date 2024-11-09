@@ -111,4 +111,11 @@ Continue the osTicket setup in the browser by entering the following details:
 - MySQL Password: Password1<br>
 
 Click <b>"Install Now!" </b> to complete the installation. Congratulations, if there are no errors, the installation should be successful.
+
+Cleanup:
+
+- Delete the setup folder located at C:\inetpub\wwwroot\osTicket\setup. <br>
+- Set the file permissions for ost-config.php at C:\inetpub\wwwroot\osTicket\include\ost-config.php to Read only. <br>
+
+Finally, log in to the osTicket Admin Panel <a> http://localhost/osTicket/scp/login.php. </a>
 </P>
