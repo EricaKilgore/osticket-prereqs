@@ -32,6 +32,7 @@ In this tutorial, I will walk you through the steps to create a virtual machine,
 <br>
 To get started, we need to create a virtual machine in the Microsoft Azure portal (portal.azure.com). A virtual machine (VM) acts as a remote computer, allowing us to protect our physical machine in case something goes wrong and providing a clean, reusable environment for our lab setup. Begin by creating a resource group and naming it "osTicket".</p>
 <br />
+<img width="838" alt="image" src="https://github.com/user-attachments/assets/7ac5478c-b6e5-4ce5-9942-259f93cc2b1b">
 
 <p>
 <img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
