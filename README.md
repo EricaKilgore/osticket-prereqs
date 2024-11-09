@@ -53,9 +53,9 @@ Once connected to your VM, you'll need to enable IIS. Go to the Control Panel, s
 </p>
 <p>
 
-Great! Now that IIS is enabled, the next step is to install the Web Platform Installer. Use the link provided here: Web Platform Installer Resources to access all necessary materials for setting up osTicket. Simply click the link and download the Web Platform Installer to proceed.
+Great! Now that IIS is enabled, the next step is to install the Web Platform Installer. Use the link provided here: <a> Https://drive.google.com/drive/u/0/folders/1APMfNyfNzcxZC6EzdaNfdZsUwxWYChf6 <a> this link will provide the Web Platform Installer Resources to access all necessary materials for setting up osTicket. Simply click the link and download the Web Platform Installer to proceed.
 
-Excellent. Now that you have enabled IIS we need to install Web Platform Installer. I have provided a link here: https://drive.google.com/drive/u/0/folders/1APMfNyfNzcxZC6EzdaNfdZsUwxWYChf6
+Excellent. Now that you have enabled IIS we need to install Web Platform Installer. I have provided a link here: <a> Https://drive.google.com/drive/u/0/folders/1APMfNyfNzcxZC6EzdaNfdZsUwxWYChf6 <a>
   That link will provide you with all of the material you need to download to get osTicket up and running. Simply click the link and install the Web Platform Installer
   
 </p>
