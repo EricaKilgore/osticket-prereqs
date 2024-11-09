@@ -36,7 +36,8 @@ To get started, we need to create a virtual machine in the Microsoft Azure porta
 <br />
 <p>
 </p>
-<p>Next simply connect to your newly created VM using RDP using the public IPv4 address. If you are a Mac user you will have to download Microsoft Remote Desktop(RDP). 
+<p>
+Next, connect to your new VM using Remote Desktop Protocol (RDP) with the public IPv4 address. If you're using a Mac, you'll need to download the Microsoft Remote Desktop app first.
 </p>
 <img src="https://i.imgur.com/uLVKzxS.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
@@ -51,8 +52,12 @@ Once connected to your VM, you'll need to enable IIS. Go to the Control Panel, s
 <br />
 </p>
 <p>
+
+Great! Now that IIS is enabled, the next step is to install the Web Platform Installer. Use the link provided here: Web Platform Installer Resources to access all necessary materials for setting up osTicket. Simply click the link and download the Web Platform Installer to proceed.
+
 Excellent. Now that you have enabled IIS we need to install Web Platform Installer. I have provided a link here: https://drive.google.com/drive/u/0/folders/1APMfNyfNzcxZC6EzdaNfdZsUwxWYChf6
   That link will provide you with all of the material you need to download to get osTicket up and running. Simply click the link and install the Web Platform Installer
+  
 </p>
 <img src="https://i.imgur.com/AxHCfQ6.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>  
 </p>
