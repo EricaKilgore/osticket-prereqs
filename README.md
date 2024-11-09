@@ -27,7 +27,8 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 <img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-In the tutorial I will discuss step-by-step on how to create a virtual machine, installing a ticketing system and installing SQL. 
+In this tutorial, I will walk you through the steps to create a virtual machine, install a ticketing system, and set up SQL.
+<br>
 <br>
 To get started, we need to create a virtual machine in the Microsoft Azure portal (portal.azure.com). A virtual machine (VM) acts as a remote computer, allowing us to protect our physical machine in case something goes wrong and providing a clean, reusable environment for our lab setup. Begin by creating a resource group and naming it "osTicket".</p>
 <br />
