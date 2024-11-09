@@ -29,12 +29,13 @@ In this tutorial, I will walk you through the steps to create a virtual machine,
 <br>
 To get started, we need to create a virtual machine in the Microsoft Azure portal (portal.azure.com). A virtual machine (VM) acts as a remote computer, allowing us to protect our physical machine in case something goes wrong and providing a clean, reusable environment for our lab setup. Begin by creating a resource group and naming it "osTicket".</p>
 <br />
-<img width="838" alt="image" src="https://github.com/user-attachments/assets/7ac5478c-b6e5-4ce5-9942-259f93cc2b1b">
+<img width="1255" alt="image" src="https://github.com/user-attachments/assets/bb5a6ad0-fb93-49db-bbdd-33e1dd2d561e">
 
 <p>
 </p>
 <p>
-Alright, now that you are connected to your VM you will have to enable IIS. Simply access the control panel then select uninstall a program. Off to the left select "Turn windows features on or off". A list will appear then you will enable Internet Information Services.
+Once connected to your VM, you'll need to enable IIS. Go to the Control Panel, select "Uninstall a program," and then click "Turn Windows features on or off" on the left. From the list that appears, enable Internet Information Services (IIS).
+
 </p>  
 <img src="https://i.imgur.com/qtEnuWu.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
