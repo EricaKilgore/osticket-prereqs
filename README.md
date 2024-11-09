@@ -106,9 +106,9 @@ Next, proceed with the osTicket setup in your browser by clicking "Continue." Yo
 <p>
 Continue the osTicket setup in the browser by entering the following details:
 
-*MySQL Database: osTicket
-*MySQL Username: root
-*MySQL Password: Password1
+*MySQL Database: osTicket<br>
+*MySQL Username: root<br>
+*MySQL Password: Password1<br>
 
 Click "Install Now!" to complete the installation. Congratulations, if there are no errors, the installation should be successful.
 </P>
