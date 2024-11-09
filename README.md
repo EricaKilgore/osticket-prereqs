@@ -54,60 +54,60 @@ Once connected to your VM, you'll need to enable IIS. Go to the Control Panel, s
 <p>
 
 Great! Now that IIS is enabled, the next step is to install the Web Platform Installer. Use the link provided here: 
-<a href="https://drive.google.com/drive/u/0/folders/1APMfNyfNzcxZC6EzdaNfdZsUwxWYChf6">Web Platform Installer Resources</a>
-
-this link will provide the Web Platform Installer Resources to access all necessary materials for setting up osTicket. Simply click the link and download the Web Platform Installer to proceed.
+<a href="https://drive.google.com/drive/u/0/folders/1APMfNyfNzcxZC6EzdaNfdZsUwxWYChf6">Web Platform Installer Resources</a> this link will provide the Web Platform Installer Resources to access all necessary materials for setting up osTicket. Simply click the link and download the Web Platform Installer to proceed.
   
 </p>
 <img src="https://i.imgur.com/AxHCfQ6.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>  
 </p>
 <p>
-Once you have installed Web Installer Platform open it. From inside the application you are going to install MySQL 5.5 Afterwards install x86 version of PHP up until 7.3. There are some failed files such as C++ redistributable package as well as PHP 7.3.8 and PHP Manager for IIS those files can be found with the install link.
+After installing the Web Platform Installer, open the application. Within it, install MySQL 5.5, followed by the x86 versions of PHP up to version 7.3.
 </p>
 <img src="https://i.imgur.com/JJ8bZeJ.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <p>
 </p>
 <p>
-Next download osTicket. Then extract and copy the "upload" folder into c:\inetpub\wwwroot. Afterwards rename the folder to osTicket
-</P>
-<img src="https://i.imgur.com/TUGiSKi.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+Next, download osTicket and extract the files. Copy the "upload" folder to C:\inetpub\wwwroot, then rename the folder to "osTicket."</P>
+<img width="364" alt="image" src="https://github.com/user-attachments/assets/7a5dc3aa-367d-4577-9753-5c2b905c4cad">
+
 </p>
 <br />
 <p>
 </p>
 <p>
-Open IIS Manager and restart the server. Once inside IIS manager go to Sites->Default->osTicket on the right, click "Browse*.80" from there your default browser should open osTicket webserver.
+Open IIS Manager and restart the server. In IIS Manager, navigate to Sites > Default > osTicket. On the right, click Browse *.80 to open the osTicket web server in your default browser.
+
 </p>
 <img src="https://i.imgur.com/4AkTkV0.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 <p>
 </p>
 <p>
-Go back into IIS manager and enable some extensions. To do this you have to go to Sites->Default->osTicket
-Then double click on PHP manager. Click on "Disable or enable an extension" Enable "php_intl.dll" & "php_opcache.dll" then refresh the osTicket webserver and obsereve the changes "Intl Extension" should now be enabled. 
+Return to IIS Manager and enable the necessary extensions. Go to Sites > Default > osTicket, then double-click on PHP Manager. Select Disable or enable an extension, enable php_intl.dll and php_opcache.dll, and refresh the osTicket web server. The "Intl Extension" should now be enabled.
+
 </p>
 <img src="https://i.imgur.com/APZgUTT.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 <p>
 </p>
 <p>
-Go back into c:\inetpub\wwwroot\osTicket\include\ost-sampleconfig.php rename the file to c:\inetpub\wwwroot\osTicket\include\ost-config.php
-Assign permissions to ost-config.php Disable inheritance->Removeall
-New Permissions->Everyone->all
+Navigate to c:\inetpub\wwwroot\osTicket\include\ost-sampleconfig.php and rename the file to ost-config.php. Next, assign appropriate permissions to the newly renamed file. Disable inheritance, remove all inherited permissions, and then set the new permissions to grant full access to "Everyone."
 </p>
 <img src="https://i.imgur.com/1nYaYGe.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 <p>
 </p>
 <p>
-Afterwards continue setting up osTicket in the browser (click continue) then you will name the Helpdesk to your liking. Select a default email that will receive emails from customers who submit tickets. 
+Next, proceed with the osTicket setup in your browser by clicking "Continue." You will then be prompted to name your helpdesk according to your preference. Additionally, select a default email address that will receive notifications from customers who submit tickets.
+
 </p>
 <img src="https://i.imgur.com/RmVk3q5.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 <p>
-<p>Continue Setting up osticket in the browser MySQL Database: osTicket MySQL Username: root MySQL Password: Password1 Click “Install Now!”
-Congratulations, hopefully it is installed with no errors!
-Clean up
-Delete: C:\inetpub\wwwroot\osTicket\setup
-Set Permissions to “Read” only: C:\inetpub\wwwroot\osTicket\include\ost-config.php
-Login to the osTicket Admin Panel (http://localhost/osTicket/scp/login.php)
+<p>
+  Continue the osTicket setup in the browser by entering the following details:
+
+MySQL Database: osTicket
+MySQL Username: root
+MySQL Password: Password1
+Click "Install Now!" to complete the installation. Congratulations, if there are no errors, the installation should be successful.
+</P>
