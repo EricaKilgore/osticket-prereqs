@@ -33,6 +33,15 @@ To get started, we need to create a virtual machine in the Microsoft Azure porta
 
 <p>
 </p>
+<br />
+<p>
+</p>
+<p>Next simply connect to your newly created VM using RDP using the public IPv4 address. If you are a Mac user you will have to download Microsoft Remote Desktop(RDP). 
+</p>
+<img src="https://i.imgur.com/uLVKzxS.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+<br />
+
 <p>
 Once connected to your VM, you'll need to enable IIS. Go to the Control Panel, select "Uninstall a program," and then click "Turn Windows features on or off" on the left. From the list that appears, enable Internet Information Services (IIS).
 
